@@ -2,7 +2,7 @@
 
 > A React Native Pokedex with Redux state management.
 
-# Deliverables Achieved:
+# Objectives Achieved:
 
 - [x] Build the frontend of PokeDex in React Native.
 - [x] Use https://pokeapi.co REST APIs to get Pokemon data.
