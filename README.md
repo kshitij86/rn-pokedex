@@ -11,3 +11,9 @@
 - [x] Keep the UI simple and elegant - Freedom of Design Choices.
 
 _Note: All Pokemon data taken from https://pokeapi.co_
+
+# Screenshots
+
+![s1](./assets/s1.png)
+![s2](./assets/s2.png)
+![s3](./assets/s3.png)
