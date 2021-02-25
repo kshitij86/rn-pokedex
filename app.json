@@ -17,9 +17,12 @@
       "**/*"
     ],
     "ios": {
+      "bundleIdentifier": "com.nintendo.pokedex",
       "supportsTablet": true
     },
     "android": {
+      "package": "com.nintendo.pokedex",
+      "versionCode": 1,
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#FFFFFF"
