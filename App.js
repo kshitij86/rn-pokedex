@@ -12,49 +12,52 @@ function App() {
   return (
     <NavigationContainer>
       <Stack.Navigator>
-        <Stack.Screen 
+        <Stack.Screen
           name="Pokedex"
-          component={HomeScreen} 
+          component={HomeScreen}
           options={{
             title: "Pokedex",
             headerStyle: {
-              backgroundColor: "grey"
+              backgroundColor: "grey",
             },
             headerTitleStyle: {
               fontSize: 30,
               textAlign: "center",
               color: "white",
-              fontWeight: 'bold',
+              fontWeight: "bold",
             },
-          }} />
-          <Stack.Screen
-            name="PokeDetails"
-            component={PokeDetails} 
-            options={{
-              title: "Details",
-              headerStyle: {
-                backgroundColor: "grey"
-              },
-              headerTitleStyle: {
-                fontSize: 30,
-                textAlign: "left",
-                color: "white",
-              },
-            }} />
-            <Stack.Screen
-            name="AboutTheDev"
-            component={About} 
-            options={{
-              title: "About The Developer",
-              headerStyle: {
-                backgroundColor: "grey"
-              },
-              headerTitleStyle: {
-                fontSize: 30,
-                textAlign: "left",
-                color: "white",
-              },
-            }} />
+          }}
+        />
+        <Stack.Screen
+          name="PokeDetails"
+          component={PokeDetails}
+          options={{
+            title: "Details",
+            headerStyle: {
+              backgroundColor: "grey",
+            },
+            headerTitleStyle: {
+              fontSize: 30,
+              textAlign: "left",
+              color: "white",
+            },
+          }}
+        />
+        <Stack.Screen
+          name="AboutTheDev"
+          component={About}
+          options={{
+            title: "About The Developer",
+            headerStyle: {
+              backgroundColor: "grey",
+            },
+            headerTitleStyle: {
+              fontSize: 30,
+              textAlign: "left",
+              color: "white",
+            },
+          }}
+        />
       </Stack.Navigator>
     </NavigationContainer>
   );
